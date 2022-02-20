@@ -3,12 +3,12 @@ import YouTube from "react-youtube";
 
 function YouTubeSampleNPM(props) {
   const opts = {
-    height: "390",
-    width: "640",
-    playerVars: {
-      // https://developers.google.com/youtube/player_parameters
-      //   autoplay: 1,
-    },
+    height: "390px",
+    width: "640px",
+    // playerVars: {
+    //   // https://developers.google.com/youtube/player_parameters
+    //   //   autoplay: 1,
+    // },
   };
 
   const onReady = (event) => {
@@ -16,7 +16,7 @@ function YouTubeSampleNPM(props) {
     event.target.pauseVideo();
   };
 
-  return <YouTube videoId="XtwuYxP_h4E" opts={opts} onReady={onReady} />;
+  return <YouTube videoId="r-yxNNO1EI8" opts={opts} onReady={onReady} />;
 }
-// https://youtu.be/XtwuYxP_h4E
+// https://youtu.be/r-yxNNO1EI8
 export default YouTubeSampleNPM;
